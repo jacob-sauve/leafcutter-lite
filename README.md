@@ -13,3 +13,38 @@ _Note: this project has the same root as [leafcutter](https://github.com/jacob-s
 What if you could have Claude CLI without Internet access or API tokens?
 
 This is the question that **leafcutter** aims to answer: like the eponymous ants, our software aims to multiply the power of tiny, local models to pick up this heavy mantle, except now for free and open source! Claude has officially helped build its own successor.
+
+
+## Installation
+
+Install ollama, e.g. on Brew
+```
+brew install ollama
+```
+Clone this repo
+```
+git clone github.com/jacob-sauve/leafcutter-lite
+```
+Make a venv
+```
+python3 -m venv .venv/
+```
+Install the dependencies
+```
+pip3 install -r requirements.txt
+```
+And run it!
+```
+python3 main.py
+```
+
+## Functionality
+⚠️**CURRENTLY NO SAFEGUARDS TO FUNCTION CALLING; USER BEWARE**⚠️
+<br>
+<br>
+leafcutter agents can currently:
+- list files in a directory
+- write to files in a directory
+- append to files in a directory
+- or chat normally!
+Just ask the agent to do something, it should probably happen!
