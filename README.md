@@ -2,7 +2,7 @@
 
 
 -------------
-_Note: this project has the same root as [leafcutter](https://github.com/jacob-sauve/leafcutter/tree/main), except does not involve the participation of Claude Code, which seemingly brought the old repository to a near unsalvageable state of disrepair._
+_Note: this project has the same root as [leafcutter](https://github.com/jacob-sauve/leafcutter/tree/main), except does not involve the participation of Claude Code, which seemingly brought the old repository to a near-unsalvageable state of disrepair._
 
 -------------
 
