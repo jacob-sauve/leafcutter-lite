@@ -14,6 +14,13 @@ What if you could have Claude CLI without Internet access or API tokens?
 
 This is the question that **leafcutter** aims to answer: like the eponymous ants, our software aims to multiply the power of tiny, local models to pick up this heavy mantle, except now for free and open source! Claude has officially helped build its own successor.
 
+## Concept
+<img width="858" height="531" alt="leafcutter" src="https://github.com/user-attachments/assets/36758272-bfb8-4801-8015-83cae842d12c" />
+
+1. The user starts by sending a message to the LLM, which the system injects into a premade prompt to encourage said LLM to perform tool calls when relevant.
+2. The LLM produces grammar-constrained JSON output, potentially containing tool call information if relevant.
+3. The JSON is parsed by the system, which then runs tool calls if present.
+4. The system displays output to the user, summarising performed tool calls and showing any message provided by the LLM.
 
 ## Installation
 
